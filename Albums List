@@ -16,6 +16,11 @@ Insert into Albums_list Values (13,"The Boyz-Be Awake",24.60);
 Insert into Albums_list Values (14,"StayC-Teddy Bear",22.50);
 Insert into Albums_list Values (15,"Kai-Rover",22.02);
 
+Albums listed by price from least to greatest.
 Select * From Albums_list Order by price ASC;
+
+What albums are less than $20?
 Select * From Albums_list where price <20;
+
+What albums are more than $20?
 Select * From Albums_list where Price >20;
