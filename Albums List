@@ -1,0 +1,21 @@
+CREATE TABLE Albums_list (id INTEGER PRIMARY KEY, item TEXT, price INTEGER);
+
+Insert into Albums_list Values(1,"Stray Kids-Oddinary",15.76);
+Insert into Albums_list Values(2,"BlackPink-Born Pink",19.57);
+Insert into Albums_list Values(3,"BTS-Butter",17.37);
+Insert into Albums_list Values (4,"Jimin-Face",26.00);
+Insert into Albums_list Values (5,"TXT-Thursday's Child",15.76);
+Insert into Albums_list Values(6,"Twice-Page Two",18.00);
+Insert into Albums_list Values (7,"Newjeans-First EP",11.72);
+Insert into Albums_list Values (8,"Enhypen-Border Carnival", 16.56);
+Insert into Albums_list Values (9,"Monsta X-No Limit",61.00);
+Insert into Albums_list Values (10,"Le Sserafim-Fearless",17.37);
+Insert into Albums_list Values (11,"Treasure-The Second Step",17.13);
+Insert into Albums_list Values (12,"TNX-Love Never Dies",24.40);
+Insert into Albums_list Values (13,"The Boyz-Be Awake",24.60);
+Insert into Albums_list Values (14,"StayC-Teddy Bear",22.50);
+Insert into Albums_list Values (15,"Kai-Rover",22.02);
+
+Select * From Albums_list Order by price ASC;
+Select * From Albums_list where price <20;
+Select * From Albums_list where Price >20;
